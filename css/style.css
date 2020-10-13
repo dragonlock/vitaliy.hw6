@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 1248px;
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+
+}
+
+.head{
+    display: flex;
+    align-items: center;
+}
+
+.head img{
+    margin-right: 120px;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav li a{
+    text-decoration: none;
+}
+
+.nav li:last-child{
+    margin-right: 0;
+}
+
+.arrow{
+    position: absolute;
+    top: 9%;
+    right: 8%;
+}
+
+.nav-btn button{
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    border: none;
+    padding: 17px 39px 17px 29px;
+}
+
+.header-menu{
+    display: flex;
+    position: relative;
+}
+
+.header-menu img{
+    width: 55%;
+    margin-top: 140px;
+    position: relative
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+}
+
+.title h1{
+    font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 70px;
+line-height: 110%;
+color: #212353;
+margin-bottom: 50px;
+}
+
+.title p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.title button{
+    background: #9C69E2;
+    border-radius: 50px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 160%;
+    /* identical to box height, or 29px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 16px 37px;
+    border: none;
+}
+
+header{
+    padding-top: 130px;
+}
+
+.block-bank{
+    display: flex;
+}
+
+.block-title{
+    display: flex;
+    flex-direction: column;
+    padding-top: 125px;
+    padding-left: 65px;
+    width: 45%;
+    /* align-items: center; */
+}
+
+.block-title h1{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    /* or 52px */
+
+    display: flex;
+    align-items: center;
+
+    color: #212353;
+    margin-bottom: 40px;
+}
+
+.block-title p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+section.bank{
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    width: 90%;
+    margin-top: 100px;
+}
+
+.features{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.features h1{
+    margin-bottom: 50px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+}
+
+.features p{
+    width: 584px;
+    margin: auto;
+    font-family: 'Avenir', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+.four-blocks{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.search{
+    display: flex;
+    width: 520px;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+}
+
+.search-title{
+    display: flex;
+    flex-direction: column;
+}
+
+.search-title h3{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    color: #212353;
+    margin-bottom:20px;
+}
+
+.search-title p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+    margin-bottom: 20px;
+}
+
+.search-title a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.005em;
+    color: #212353;
+}
+
+.search:nth-child(1),
+.search:nth-child(2)
+{
+    padding-bottom: 60px;
+}
+
+.purple-box{
+    width: 1118px;
+    height: 709px;
+    background: #9C69E2;
+    border-radius: 50px;
+}
+
+.purple-box h1{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding: 110px;
+    padding-left: 93px;
+}
+
+.white-box{
+    width: 949px;
+    height: 330px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.box-comm{
+    width: 743.02px;
+    height: 220px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.box-comm img{
+    margin-right: 30px;
+}
+
+.box-wrapp{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.box-wrapp p{
+    width: 366.46px;
+    height: 130px;
+    font-family: 'Avenir', Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 180%;
+}
+
+.box-wrapp a{
+    font-family: 'Avenir', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;  
+    letter-spacing: 0.01em;
+    color: #9C69E2;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.testim{
+    padding-top: 170px;
+}
+
+.box-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.box-nav img:first-child{
+    margin-left: 7%;
+}
+
+.box-nav img:last-child{
+    margin-right: 7%;
+}
+
+.try-for-free{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.try-for-free-title h1{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+    margin-bottom: 20px;
+}
+
+.try-for-free-title p{
+    font-family: 'Avenir', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+.try-btn{
+    margin-top: 10px;
+    position: absolute;
+    right: 5px;
+    top: 15%;
+}
+
+
+.buttons{
+    display: flex;
+    margin-right: 10%;
+    position: relative;
+}
+
+.buttons button:first-child{
+    margin-right: 20px;
+    background: #F063B8;
+    border-radius: 50px;   
+    padding: 16px 37px; 
+    border: none;
+    font-family: 'Avenir', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.buttons button:last-child{
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    padding: 17px 35px 17px 29px;
+    border: none;
+    font-family: 'Avenir', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0.005em;    
+    color: #212353;
+}
+
+footer{
+    
+    width: 1248px;
+    margin: 0 auto;  
+    margin-top: 10%;  
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img{
+    margin-right: 5px;
+}
+
+.footer-logo span{
+    font-family: 'Avenir', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+}
+
+/* .footer-inner{
+    padding-left: 8%;
+} */
+
+.footer-inner h4{
+    width: 44%;
+    margin-right: 0;
+    margin-top: 67px;
+}
+
+.footer-inner p{
+    width: 44%;
+    margin-top: 10px;
+    
+}
+
+.about h4,
+.helps h4,
+.social h4{
+    margin-bottom: 60px;
+}
+
+.about li,
+.helps li{
+    list-style: none;
+    font-family: 'Avenir', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 250%;
+    color: #212353;
+}
+
+.footer-wrapp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+padding-right: 10%;
+}
+
+
+
+.bottom-wrapp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-top: 10% ;
+}
+
+.bottom-wrapp p{
+    width: 30%;
+    font-family: 'Avenir', Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 180%;
+
+letter-spacing: 0.01em;
+
+color: #212353;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
+  }
